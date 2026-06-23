@@ -1,5 +1,17 @@
 /**
- * KCP Dart-Scraper — Debug-Version
+ * KCP Dart-Scraper
+ * Quelle: wheresthematch.com/live-darts-on-tv
+ *
+ * Struktur der Seite:
+ *   <thead><tr><th class="b">Monday 6th July 2026</th>...</tr></thead>
+ *   <tbody>
+ *     <tr itemscope itemtype="BroadcastEvent">
+ *       <td class="home-team">   ← Bild-Link zum Event
+ *       <td class="fixture-details"> ← Event-Name (Link mit Text) + Location (em)
+ *       <td class="start-time">  ← nur Uhrzeit "13:00"
+ *       ...
+ *     </tr>
+ *   </tbody>
  */
 
 import fetch  from 'node-fetch';
@@ -17,18 +29,34 @@ function toUrlDate(d) {
   return `${y}${m}${day}`;
 }
 
+/**
+ * Parst "Monday 6 July 2026 13:00" → Date-Objekt
+ * Funktioniert mit vollen Wochentagnamen (Monday, Tuesday...) und Kurzform (Mon, Tue...)
+ */
 function parseWtmDate(raw) {
   if (!raw) return null;
-  const cleaned = raw.trim().replace(/(\d+)(st|nd|rd|th)/g, '$1');
-  const months  = {
+
+  // &nbsp; und Ordinalzahlen-Suffix entfernen
+  const cleaned = raw
+    .replace(/ /g, ' ')
+    .trim()
+    .replace(/(\d+)(st|nd|rd|th)/gi, '$1');
+
+  const months = {
     January:0, February:1, March:2, April:3, May:4, June:5,
     July:6, August:7, September:8, October:9, November:10, December:11,
   };
-  const m = cleaned.match(/(?:\w{3}\s+)?(\d{1,2})\s+(\w+)\s+(\d{4})(?:\s+(\d{2}:\d{2}))?/);
+
+  // Regex: optionaler Wochentag (beliebig lang), dann Tag Monat Jahr [Uhrzeit]
+  const m = cleaned.match(
+    /(?:\w+\s+)?(\d{1,2})\s+(\w+)\s+(\d{4})(?:[\s,]+(\d{1,2}:\d{2}))?/
+  );
   if (!m) return null;
+
   const [, day, monthName, year, time] = m;
   const monthIdx = months[monthName];
   if (monthIdx === undefined) return null;
+
   const [hh, mm] = (time || '00:00').split(':').map(Number);
   return new Date(Number(year), monthIdx, Number(day), hh, mm, 0);
 }
@@ -53,87 +81,82 @@ async function scrapeDarts(days = 60) {
   const html = await res.text();
   console.log(`HTML Länge: ${html.length} Zeichen`);
 
-  // --- DEBUG: Struktur analysieren ---
-  const $ = cheerio.load(html);
-
-  const tableCount = $('table').length;
-  const trCount    = $('table tr').length;
-  const linkCount  = $('table a').length;
-  console.log(`Tabellen: ${tableCount}, TR: ${trCount}, Links in Tabellen: ${linkCount}`);
-
-  // Zeige erste 3 Links aus der Tabelle
-  $('table a').slice(0, 5).each((i, el) => {
-    console.log(`  Link ${i}: ${$(el).attr('href')} → "${$(el).text().trim().substring(0, 60)}"`);
-  });
-
-  // Suche nach Event-Links (Muster: /event/ in der URL)
-  const eventLinks = $('a[href*="/event/"]');
-  console.log(`Event-Links (/event/): ${eventLinks.length}`);
-  eventLinks.slice(0, 3).each((i, el) => {
-    console.log(`  Event ${i}: ${$(el).attr('href')}`);
-  });
-
-  // Suche nach Datumstext
-  const bodyText  = $('body').text();
-  const dateHits  = bodyText.match(/\w{3} \d{1,2}(?:st|nd|rd|th) \w+ \d{4}/g);
-  console.log(`Datums-Pattern im Body: ${dateHits ? dateHits.slice(0,3).join(' | ') : 'KEINE'}`);
-
-  // Zeige ersten 1000 Zeichen der Tabelle
-  const firstTable = $('table').first().html();
-  if (firstTable) {
-    console.log('--- Erste 1000 Zeichen der ersten Tabelle ---');
-    console.log(firstTable.substring(0, 1000));
-  } else {
-    console.log('KEINE Tabelle gefunden!');
-    // Zeige was überhaupt im Body steht
-    console.log('--- Body-Ausschnitt (erste 1000 Zeichen) ---');
-    console.log($('body').text().trim().substring(0, 1000));
-  }
-
-  // --- Eigentliches Scraping (verschiedene Selektoren probieren) ---
+  const $      = cheerio.load(html);
   const events = [];
   const now    = Math.floor(Date.now() / 1000);
 
-  // Versuch 1: Event-Links direkt finden
-  $('a[href*="/event/"]').each((_, el) => {
-    const $el   = $(el);
-    const $row  = $el.closest('tr');
-    if (!$row.length) return;
+  let currentDateStr = null;
 
-    const eventName = $el.text().trim() || $el.find('strong').text().trim();
-    if (!eventName || eventName.length < 3) return;
+  // Durch ALLE Tabellenzeilen iterieren (thead + tbody zusammen)
+  $('table tr').each((_, row) => {
+    const $row = $(row);
 
-    // Datum aus derselben Zeile
-    const rowText = $row.text();
-    const dateMatch = rowText.match(/(\w{3} \d{1,2}(?:st|nd|rd|th) \w+ \d{4}(?:\s+\d{2}:\d{2})?)/);
-    if (!dateMatch) return;
+    // Datum-Header in <th class="b"> erkennen
+    const $thB = $row.find('th.b');
+    if ($thB.length) {
+      const raw = $thB.text().replace(/ /g, ' ').trim();
+      if (raw.match(/\d{4}/)) {
+        currentDateStr = raw;
+        console.log(`Datum-Header: "${currentDateStr}"`);
+      }
+      return; // weiter zur nächsten Zeile
+    }
 
-    const dt = parseWtmDate(dateMatch[1]);
-    if (!dt) return;
+    // Event-Zeilen haben itemscope-Attribut
+    if (!$row.attr('itemscope')) return;
+    if (!currentDateStr) return;
+
+    // Event-Name: Link mit echtem Text in td.fixture-details
+    const eventName = $row
+      .find('td.fixture-details a')
+      .filter((_, a) => $(a).text().trim().length > 2)
+      .first()
+      .text()
+      .trim();
+    if (!eventName) return;
+
+    // Uhrzeit aus td.start-time (enthält nur "13:00", kein Datum)
+    const timeText = $row.find('td.start-time').text().trim();
+    const time     = timeText.match(/\d{1,2}:\d{2}/) ? timeText.match(/\d{1,2}:\d{2}/)[0] : '00:00';
+
+    // Datum + Uhrzeit kombinieren
+    const fullStr = `${currentDateStr} ${time}`;
+    const dt      = parseWtmDate(fullStr);
+    if (!dt) {
+      console.log(`  ✗ Parse fehlgeschlagen: "${fullStr}"`);
+      return;
+    }
 
     const ts = Math.floor(dt.getTime() / 1000);
     if (ts < now) return; // vergangene Events überspringen
 
+    // Location aus em-Tag in fixture-details
+    const rawLoc  = $row.find('td.fixture-details em').text().trim();
+    const location = rawLoc
+      .split(/\s{2,}/)                // mehrfache Leerzeichen als Trennzeichen
+      .map(s => s.trim())
+      .filter(s => s.length > 3 && !s.match(/\.(gif|jpg|png)/i))
+      .pop() || null;
+
     const datum   = dt.toLocaleDateString('de-DE', { weekday:'short', day:'2-digit', month:'short' });
     const uhrzeit = dt.toLocaleTimeString('de-DE', { hour:'2-digit', minute:'2-digit' });
+
+    console.log(`  ✓ ${datum} ${uhrzeit} – ${eventName}`);
 
     events.push({
       sport   : 'dart',
       liga    : 'PDC Darts',
       liga_kz : 'dart',
       event   : eventName,
-      location: null,
+      location,
       datum,
       uhrzeit,
       iso     : dt.toISOString(),
       ts,
-      link    : `https://www.wheresthematch.com${$el.attr('href')}`,
     });
   });
 
-  console.log(`Versuch 1 (Event-Links): ${events.length} Events`);
-
-  // Deduplizieren
+  // Deduplizieren (gleicher Name + gleicher Timestamp)
   const seen   = new Set();
   const unique = events.filter(e => {
     const key = `${e.event}|${e.iso}`;
@@ -150,9 +173,6 @@ async function scrapeDarts(days = 60) {
   try {
     const events = await scrapeDarts(60);
     console.log(`\n✓ Gesamt: ${events.length} Events`);
-    events.slice(0, 5).forEach(e =>
-      console.log(`  ${e.datum} ${e.uhrzeit} – ${e.event}`)
-    );
 
     const outDir  = path.join(__dirname, 'data');
     const outFile = path.join(outDir, 'dart.json');
