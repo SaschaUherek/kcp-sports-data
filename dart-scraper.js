@@ -1,5 +1,5 @@
 /**
- * KCP Dart-Scraper — Debug v3
+ * KCP Dart-Scraper — Debug v4: Schema.org itemprop check
  */
 
 import fetch  from 'node-fetch';
@@ -14,18 +14,6 @@ function toUrlDate(d) {
   return `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}`;
 }
 
-function parseWtmDate(raw) {
-  if (!raw) return null;
-  const cleaned = raw.replace(/ /g, ' ').trim().replace(/(\d+)(st|nd|rd|th)/gi, '$1');
-  const months = { January:0,February:1,March:2,April:3,May:4,June:5,July:6,August:7,September:8,October:9,November:10,December:11 };
-  const m = cleaned.match(/(?:\w+\s+)?(\d{1,2})\s+(\w+)\s+(\d{4})(?:[\s,]+(\d{1,2}:\d{2}))?/);
-  if (!m) return null;
-  const monthIdx = months[m[2]];
-  if (monthIdx === undefined) return null;
-  const [hh, mm] = (m[4] || '00:00').split(':').map(Number);
-  return new Date(Number(m[3]), monthIdx, Number(m[1]), hh, mm, 0);
-}
-
 async function scrapeDarts(days = 60) {
   const today = new Date();
   const end   = new Date(today);
@@ -34,33 +22,54 @@ async function scrapeDarts(days = 60) {
   const url = `https://www.wheresthematch.com/live-darts-on-tv/?showdatestart=${toUrlDate(today)}&showdateend=${toUrlDate(end)}`;
   console.log(`Fetching: ${url}`);
 
-  const res = await fetch(url, {
+  const res  = await fetch(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
       'Accept': 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8',
       'Accept-Language': 'en-GB,en;q=0.9',
     },
   });
-
   const html = await res.text();
   console.log(`HTTP: ${res.status}, HTML: ${html.length} Zeichen`);
 
   const $ = cheerio.load(html);
 
-  // --- DEBUG: Alle TR-Zeilen untersuchen ---
-  console.log('\n--- Alle TR-Zeilen ---');
-  $('table tr').each((i, row) => {
-    const $row    = $(row);
-    const hasItem = $row.is('[itemscope]');
-    const thText  = $row.find('th').map((_, th) => $(th).text().replace(/\s+/g,' ').trim()).get().join(' | ');
-    const tdText  = $row.text().replace(/\s+/g,' ').trim().substring(0, 100);
-    const classes = $row.attr('class') || '';
+  // --- DEBUG 1: itemprop-Attribute in Event-Zeilen ---
+  console.log('\n--- itemprop in Event-Zeilen ---');
+  $('tr[itemscope]').slice(0, 3).each((i, row) => {
+    const $row = $(row);
+    console.log(`\nEvent-Row ${i}:`);
 
-    if (thText || hasItem || tdText.match(/\d{4}/)) {
-      console.log(`TR[${i}] itemscope=${hasItem} class="${classes}"`);
-      if (thText) console.log(`  TH: "${thText}"`);
-      if (tdText) console.log(`  TD: "${tdText}"`);
-    }
+    // Alle Elemente mit itemprop
+    $row.find('[itemprop]').each((_, el) => {
+      const prop    = $(el).attr('itemprop');
+      const content = $(el).attr('content') || $(el).text().trim().substring(0, 80);
+      console.log(`  itemprop="${prop}" → "${content}"`);
+    });
+
+    // start-time TD vollständiger Inhalt
+    const $st = $row.find('td.start-time, td[class*="time"], td[class*="start"]');
+    console.log(`  td.start-time HTML: "${$st.html()?.substring(0, 200)}"`);
+
+    // Alle TDs mit ihrem class und Text
+    $row.find('td').each((j, td) => {
+      const cls = $(td).attr('class') || '';
+      const txt = $(td).text().replace(/\s+/g,' ').trim().substring(0, 60);
+      console.log(`  td[${j}] class="${cls}" → "${txt}"`);
+    });
+  });
+
+  // --- DEBUG 2: JSON-LD im <head> ---
+  console.log('\n--- JSON-LD Script-Tags ---');
+  $('script[type="application/ld+json"]').each((i, el) => {
+    console.log(`JSON-LD [${i}]: ${$(el).html()?.substring(0, 300)}`);
+  });
+
+  // --- DEBUG 3: data-Attribute auf Event-Rows ---
+  console.log('\n--- data-Attribute auf Event-Rows ---');
+  $('tr[itemscope]').slice(0, 3).each((i, row) => {
+    const attrs = Object.entries(row.attribs || {}).map(([k,v]) => `${k}="${v}"`).join(', ');
+    console.log(`Row ${i}: ${attrs}`);
   });
 
   return [];
@@ -68,14 +77,11 @@ async function scrapeDarts(days = 60) {
 
 (async () => {
   try {
-    const events = await scrapeDarts(60);
-    console.log(`\n✓ Gesamt: ${events.length} Events`);
-
+    await scrapeDarts(60);
     const outDir  = path.join(__dirname, 'data');
-    const outFile = path.join(outDir, 'dart.json');
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(outFile, JSON.stringify({ updated: new Date().toISOString(), source: 'wheresthematch.com', count: 0, events: [] }, null, 2));
-    console.log(`✓ Gespeichert: ${outFile}`);
+    fs.writeFileSync(path.join(outDir, 'dart.json'), JSON.stringify({ updated: new Date().toISOString(), source: 'wheresthematch.com', count: 0, events: [] }, null, 2));
+    console.log('\n✓ dart.json gespeichert (leer, Debug-Modus)');
   } catch (err) {
     console.error('Fehler:', err.message);
     process.exit(1);
