@@ -1,4 +1,7 @@
-name: Dart Schedule Scraper
+name: Node.js einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
 
 on:
   schedule:
