@@ -1,0 +1,13 @@
+{
+  "name": "kcp-scrapers",
+  "version": "1.0.0",
+  "description": "KCP Sport-Daten Scraper",
+  "type": "module",
+  "scripts": {
+    "dart": "node scrapers/dart-scraper.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
