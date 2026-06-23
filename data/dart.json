@@ -1,6 +1,238 @@
 {
-  "updated": "2026-06-23T21:16:25.689Z",
+  "updated": "2026-06-23T21:21:41.965Z",
   "source": "wheresthematch.com",
-  "count": 0,
-  "events": []
+  "count": 21,
+  "events": [
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Players Championship     Players Championships 23-24 - Mattioli Arena, Leicester",
+      "location": "Mattioli Arena, Leicester",
+      "datum": "Mo., 06. Juli",
+      "uhrzeit": "15:00",
+      "iso": "2026-07-06T13:00:00.000Z",
+      "ts": 1783342800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Players Championship     Players Championships 23-24 - Mattioli Arena, Leicester",
+      "location": "Mattioli Arena, Leicester",
+      "datum": "Di., 07. Juli",
+      "uhrzeit": "15:00",
+      "iso": "2026-07-07T13:00:00.000Z",
+      "ts": 1783429200
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "European Darts Open     Elten Safety Shoes European Darts Open - Ostermann-Arena Leverkusen",
+      "location": "Ostermann-Arena Leverkusen",
+      "datum": "Fr., 10. Juli",
+      "uhrzeit": "14:00",
+      "iso": "2026-07-10T12:00:00.000Z",
+      "ts": 1783684800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "European Darts Open     Elten Safety Shoes European Darts Open - Ostermann-Arena Leverkusen",
+      "location": "Ostermann-Arena Leverkusen",
+      "datum": "Fr., 10. Juli",
+      "uhrzeit": "20:00",
+      "iso": "2026-07-10T18:00:00.000Z",
+      "ts": 1783706400
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "European Darts Open     Elten Safety Shoes European Darts Open - Ostermann-Arena Leverkusen",
+      "location": "Ostermann-Arena Leverkusen",
+      "datum": "Sa., 11. Juli",
+      "uhrzeit": "14:00",
+      "iso": "2026-07-11T12:00:00.000Z",
+      "ts": 1783771200
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "European Darts Open     Elten Safety Shoes European Darts Open - Ostermann-Arena Leverkusen",
+      "location": "Ostermann-Arena Leverkusen",
+      "datum": "Sa., 11. Juli",
+      "uhrzeit": "20:00",
+      "iso": "2026-07-11T18:00:00.000Z",
+      "ts": 1783792800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "European Darts Open     Elten Safety Shoes European Darts Open - Ostermann-Arena Leverkusen",
+      "location": "Ostermann-Arena Leverkusen",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "14:00",
+      "iso": "2026-07-12T12:00:00.000Z",
+      "ts": 1783857600
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "European Darts Open     Elten Safety Shoes European Darts Open - Ostermann-Arena Leverkusen",
+      "location": "Ostermann-Arena Leverkusen",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "20:00",
+      "iso": "2026-07-12T18:00:00.000Z",
+      "ts": 1783879200
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     World Matchplay Darts - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "Sa., 18. Juli",
+      "uhrzeit": "21:00",
+      "iso": "2026-07-18T19:00:00.000Z",
+      "ts": 1784401200
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     World Matchplay Darts - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "15:00",
+      "iso": "2026-07-19T13:00:00.000Z",
+      "ts": 1784466000
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     World Matchplay Darts - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "21:00",
+      "iso": "2026-07-19T19:00:00.000Z",
+      "ts": 1784487600
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     First Round - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "Mo., 20. Juli",
+      "uhrzeit": "21:00",
+      "iso": "2026-07-20T19:00:00.000Z",
+      "ts": 1784574000
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     Second Round - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "Di., 21. Juli",
+      "uhrzeit": "21:00",
+      "iso": "2026-07-21T19:00:00.000Z",
+      "ts": 1784660400
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     Second Round - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "Mi., 22. Juli",
+      "uhrzeit": "21:00",
+      "iso": "2026-07-22T19:00:00.000Z",
+      "ts": 1784746800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     Quarter-Finals - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "Do., 23. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-23T20:00:00.000Z",
+      "ts": 1784836800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     Quarter-Finals - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "Fr., 24. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-24T20:00:00.000Z",
+      "ts": 1784923200
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     Semi-Finals - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "Sa., 25. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-25T20:00:00.000Z",
+      "ts": 1785009600
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     Women's World Matchplay - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "So., 26. Juli",
+      "uhrzeit": "15:00",
+      "iso": "2026-07-26T13:00:00.000Z",
+      "ts": 1785070800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "World Matchplay     Men's Final - Winter Gardens, Blackpool",
+      "location": "Winter Gardens, Blackpool",
+      "datum": "So., 26. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-26T20:00:00.000Z",
+      "ts": 1785096000
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Players Championship     Players Championships 25-26 - Halle 39, Hildesheim, Germany",
+      "location": "Halle 39, Hildesheim, Germany",
+      "datum": "Di., 28. Juli",
+      "uhrzeit": "15:00",
+      "iso": "2026-07-28T13:00:00.000Z",
+      "ts": 1785243600
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Players Championship     Players Championships 25-26 - Halle 39, Hildesheim, Germany",
+      "location": "Halle 39, Hildesheim, Germany",
+      "datum": "Mi., 29. Juli",
+      "uhrzeit": "15:00",
+      "iso": "2026-07-29T13:00:00.000Z",
+      "ts": 1785330000
+    }
+  ]
 }
