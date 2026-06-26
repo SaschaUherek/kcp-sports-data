@@ -1,30 +1,8 @@
 {
-  "updated": "2026-06-25T08:48:27.170Z",
+  "updated": "2026-06-26T08:51:11.047Z",
   "source": "wheresthematch.com",
-  "count": 29,
+  "count": 36,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Parramatta Eels v  South Sydney Rabbitohs NRL",
-      "location": "Parramatta Eelsv South Sydney Rabbitohs",
-      "datum": "Do., 25. Juni",
-      "uhrzeit": "12:50",
-      "iso": "2026-06-25T10:50:00.000Z",
-      "ts": 1782384600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Warrington Wolves v  Catalans Dragons Super League",
-      "location": "Warrington Wolvesv Catalans Dragons",
-      "datum": "Do., 25. Juni",
-      "uhrzeit": "22:00",
-      "iso": "2026-06-25T20:00:00.000Z",
-      "ts": 1782417600
-    },
     {
       "sport": "rugby",
       "liga": "Rugby League",
@@ -321,6 +299,105 @@
       "uhrzeit": "14:55",
       "iso": "2026-07-01T12:55:00.000Z",
       "ts": 1782910500
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "Wales U20 v  Uruguay U20  World Rugby U20 Championship Group Stage",
+      "location": "Wales U20v Uruguay U20",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "12:00",
+      "iso": "2026-07-02T10:00:00.000Z",
+      "ts": 1782986400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "France U20 v  Spain U20  World Rugby U20 Championship Group Stage",
+      "location": "France U20v Spain U20",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "12:00",
+      "iso": "2026-07-02T10:00:00.000Z",
+      "ts": 1782986400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Cronulla Sutherland Sharks Women v  Newcastle Knights Women  Women's NRL",
+      "location": "Cronulla Sutherland Sharks Womenv Newcastle Knights Women",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "12:45",
+      "iso": "2026-07-02T10:45:00.000Z",
+      "ts": 1782989100
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "Argentina U20 v  Ireland U20  World Rugby U20 Championship Group Stage",
+      "location": "Argentina U20v Ireland U20",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "14:30",
+      "iso": "2026-07-02T12:30:00.000Z",
+      "ts": 1782995400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "Australia U20 v  Fiji U20  World Rugby U20 Championship Group Stage",
+      "location": "Australia U20v Fiji U20",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "14:30",
+      "iso": "2026-07-02T12:30:00.000Z",
+      "ts": 1782995400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "New Zealand U20 v  Scotland U20  World Rugby U20 Championship Group Stage",
+      "location": "New Zealand U20v Scotland U20",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-02T15:00:00.000Z",
+      "ts": 1783004400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "England U20 v  USA U20  World Rugby U20 Championship Group Stage",
+      "location": "England U20v USA U20",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-02T15:00:00.000Z",
+      "ts": 1783004400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "South Africa U20 v  Georgia U20  World Rugby U20 Championship Group Stage",
+      "location": "South Africa U20v Georgia U20",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "19:30",
+      "iso": "2026-07-02T17:30:00.000Z",
+      "ts": 1783013400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "Italy U20 v  Japan U20  World Rugby U20 Championship Group Stage",
+      "location": "Italy U20v Japan U20",
+      "datum": "Do., 02. Juli",
+      "uhrzeit": "19:30",
+      "iso": "2026-07-02T17:30:00.000Z",
+      "ts": 1783013400
     }
   ]
 }
