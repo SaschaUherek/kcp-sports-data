@@ -1,63 +1,8 @@
 {
-  "updated": "2026-06-26T08:51:11.047Z",
+  "updated": "2026-06-27T08:26:57.800Z",
   "source": "wheresthematch.com",
-  "count": 36,
+  "count": 32,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Gold Coast Titans v  Canterbury Bulldogs NRL",
-      "location": "Gold Coast Titansv Canterbury Bulldogs",
-      "datum": "Fr., 26. Juni",
-      "uhrzeit": "11:00",
-      "iso": "2026-06-26T09:00:00.000Z",
-      "ts": 1782464400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Brisbane Broncos v  Sydney Roosters NRL",
-      "location": "Brisbane Broncosv Sydney Roosters",
-      "datum": "Fr., 26. Juni",
-      "uhrzeit": "13:00",
-      "iso": "2026-06-26T11:00:00.000Z",
-      "ts": 1782471600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Castleford Tigers v  York Knights Super League",
-      "location": "Castleford Tigersv York Knights",
-      "datum": "Fr., 26. Juni",
-      "uhrzeit": "22:00",
-      "iso": "2026-06-26T20:00:00.000Z",
-      "ts": 1782504000
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Leeds Rhinos v  Hull KR Super League",
-      "location": "Leeds Rhinosv Hull KR",
-      "datum": "Fr., 26. Juni",
-      "uhrzeit": "22:00",
-      "iso": "2026-06-26T20:00:00.000Z",
-      "ts": 1782504000
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Dolphins v  New Zealand Warriors NRL",
-      "location": "Dolphinsv New Zealand Warriors",
-      "datum": "Sa., 27. Juni",
-      "uhrzeit": "08:00",
-      "iso": "2026-06-27T06:00:00.000Z",
-      "ts": 1782540000
-    },
     {
       "sport": "rugby",
       "liga": "Rugby League",
@@ -398,6 +343,17 @@
       "uhrzeit": "19:30",
       "iso": "2026-07-02T17:30:00.000Z",
       "ts": 1783013400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Penrith Panthers v  South Sydney Rabbitohs NRL",
+      "location": "Penrith Panthersv South Sydney Rabbitohs",
+      "datum": "Fr., 03. Juli",
+      "uhrzeit": "13:00",
+      "iso": "2026-07-03T11:00:00.000Z",
+      "ts": 1783076400
     }
   ]
 }
