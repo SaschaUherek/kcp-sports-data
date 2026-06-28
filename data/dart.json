@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-27T08:26:56.347Z",
+  "updated": "2026-06-28T08:41:26.367Z",
   "source": "wheresthematch.com",
-  "count": 22,
+  "count": 23,
   "events": [
     {
       "sport": "dart",
@@ -244,6 +244,17 @@
       "uhrzeit": "15:00",
       "iso": "2026-08-25T13:00:00.000Z",
       "ts": 1787662800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Players Championship     Players Championships 27-28 - Mattioli Arena, Leicester",
+      "location": "Mattioli Arena, Leicester",
+      "datum": "Mi., 26. Aug.",
+      "uhrzeit": "15:00",
+      "iso": "2026-08-26T13:00:00.000Z",
+      "ts": 1787749200
     }
   ]
 }
