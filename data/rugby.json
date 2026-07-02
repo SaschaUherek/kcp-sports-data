@@ -1,30 +1,8 @@
 {
-  "updated": "2026-07-01T09:30:33.471Z",
+  "updated": "2026-07-02T08:42:46.371Z",
   "source": "wheresthematch.com",
-  "count": 49,
+  "count": 48,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Fixtures Release 2026-27     LIVE Challenge Cup Draw",
-      "location": "LIVE Challenge Cup Draw",
-      "datum": "Mi., 01. Juli",
-      "uhrzeit": "14:30",
-      "iso": "2026-07-01T12:30:00.000Z",
-      "ts": 1782909000
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Fixtures Release 2026-27     LIVE Champions Cup Draw",
-      "location": "LIVE Champions Cup Draw",
-      "datum": "Mi., 01. Juli",
-      "uhrzeit": "14:55",
-      "iso": "2026-07-01T12:55:00.000Z",
-      "ts": 1782910500
-    },
     {
       "sport": "rugby",
       "liga": "Rugby Union",
@@ -541,6 +519,17 @@
       "uhrzeit": "19:30",
       "iso": "2026-07-07T17:30:00.000Z",
       "ts": 1783445400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Queensland v  New South Wales  Australian State of Origin",
+      "location": "Queenslandv New South Wales",
+      "datum": "Mi., 08. Juli",
+      "uhrzeit": "13:05",
+      "iso": "2026-07-08T11:05:00.000Z",
+      "ts": 1783508700
     }
   ]
 }

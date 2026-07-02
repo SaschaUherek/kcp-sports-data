@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-01T09:30:31.861Z",
+  "updated": "2026-07-02T08:42:44.854Z",
   "source": "wheresthematch.com",
-  "count": 27,
+  "count": 29,
   "events": [
     {
       "sport": "dart",
@@ -299,6 +299,28 @@
       "uhrzeit": "20:00",
       "iso": "2026-08-29T18:00:00.000Z",
       "ts": 1788026400
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Hungarian Darts Trophy     Hungarian Darts Trophy - MVM DOME Budapest",
+      "location": "MVM DOME Budapest",
+      "datum": "So., 30. Aug.",
+      "uhrzeit": "14:00",
+      "iso": "2026-08-30T12:00:00.000Z",
+      "ts": 1788091200
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Hungarian Darts Trophy     Hungarian Darts Trophy - MVM DOME Budapest",
+      "location": "MVM DOME Budapest",
+      "datum": "So., 30. Aug.",
+      "uhrzeit": "20:00",
+      "iso": "2026-08-30T18:00:00.000Z",
+      "ts": 1788112800
     }
   ]
 }
