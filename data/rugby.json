@@ -1,107 +1,8 @@
 {
-  "updated": "2026-07-02T08:42:46.371Z",
+  "updated": "2026-07-03T08:50:37.042Z",
   "source": "wheresthematch.com",
-  "count": 48,
+  "count": 41,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Wales U20 v  Uruguay U20  World Rugby U20 Championship Group Stage",
-      "location": "Wales U20v Uruguay U20",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "12:00",
-      "iso": "2026-07-02T10:00:00.000Z",
-      "ts": 1782986400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "France U20 v  Spain U20  World Rugby U20 Championship Group Stage",
-      "location": "France U20v Spain U20",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "12:00",
-      "iso": "2026-07-02T10:00:00.000Z",
-      "ts": 1782986400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Cronulla Sutherland Sharks Women v  Newcastle Knights Women  Women's NRL",
-      "location": "Cronulla Sutherland Sharks Womenv Newcastle Knights Women",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "12:45",
-      "iso": "2026-07-02T10:45:00.000Z",
-      "ts": 1782989100
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Argentina U20 v  Ireland U20  World Rugby U20 Championship Group Stage",
-      "location": "Argentina U20v Ireland U20",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "14:30",
-      "iso": "2026-07-02T12:30:00.000Z",
-      "ts": 1782995400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Australia U20 v  Fiji U20  World Rugby U20 Championship Group Stage",
-      "location": "Australia U20v Fiji U20",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "14:30",
-      "iso": "2026-07-02T12:30:00.000Z",
-      "ts": 1782995400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "New Zealand U20 v  Scotland U20  World Rugby U20 Championship Group Stage",
-      "location": "New Zealand U20v Scotland U20",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-02T15:00:00.000Z",
-      "ts": 1783004400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "England U20 v  USA U20  World Rugby U20 Championship Group Stage",
-      "location": "England U20v USA U20",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-02T15:00:00.000Z",
-      "ts": 1783004400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "South Africa U20 v  Georgia U20  World Rugby U20 Championship Group Stage",
-      "location": "South Africa U20v Georgia U20",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "19:30",
-      "iso": "2026-07-02T17:30:00.000Z",
-      "ts": 1783013400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Italy U20 v  Japan U20  World Rugby U20 Championship Group Stage",
-      "location": "Italy U20v Japan U20",
-      "datum": "Do., 02. Juli",
-      "uhrzeit": "19:30",
-      "iso": "2026-07-02T17:30:00.000Z",
-      "ts": 1783013400
-    },
     {
       "sport": "rugby",
       "liga": "Rugby League",
@@ -530,6 +431,28 @@
       "uhrzeit": "13:05",
       "iso": "2026-07-08T11:05:00.000Z",
       "ts": 1783508700
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Cronulla Sutherland Sharks Women v  Brisbane Broncos Women  Women's NRL",
+      "location": "Cronulla Sutherland Sharks Womenv Brisbane Broncos Women",
+      "datum": "Do., 09. Juli",
+      "uhrzeit": "12:45",
+      "iso": "2026-07-09T10:45:00.000Z",
+      "ts": 1783593900
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "York Knights v  Hull FC Super League",
+      "location": "York Knightsv Hull FC",
+      "datum": "Do., 09. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-09T20:00:00.000Z",
+      "ts": 1783627200
     }
   ]
 }
