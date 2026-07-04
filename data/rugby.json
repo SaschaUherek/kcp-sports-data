@@ -1,63 +1,8 @@
 {
-  "updated": "2026-07-03T08:50:37.042Z",
+  "updated": "2026-07-04T08:25:16.193Z",
   "source": "wheresthematch.com",
-  "count": 41,
+  "count": 39,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Penrith Panthers v  South Sydney Rabbitohs NRL",
-      "location": "Penrith Panthersv South Sydney Rabbitohs",
-      "datum": "Fr., 03. Juli",
-      "uhrzeit": "13:00",
-      "iso": "2026-07-03T11:00:00.000Z",
-      "ts": 1783076400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Gold Coast Titans Women v  Sydney Roosters Women  Women's NRL",
-      "location": "Gold Coast Titans Womenv Sydney Roosters Women",
-      "datum": "Sa., 04. Juli",
-      "uhrzeit": "05:45",
-      "iso": "2026-07-04T03:45:00.000Z",
-      "ts": 1783136700
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "St George Illawarra Dragons Women v  Canberra Raiders Women  Women's NRL",
-      "location": "St George Illawarra Dragons Womenv Canberra Raiders Women",
-      "datum": "Sa., 04. Juli",
-      "uhrzeit": "08:15",
-      "iso": "2026-07-04T06:15:00.000Z",
-      "ts": 1783145700
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "New Zealand v  France Nations Championship 2026",
-      "location": "New Zealandv France",
-      "datum": "Sa., 04. Juli",
-      "uhrzeit": "10:10",
-      "iso": "2026-07-04T08:10:00.000Z",
-      "ts": 1783152600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Brisbane Broncos Women v  North Queensland Cowboys Women  Women's NRL",
-      "location": "Brisbane Broncos Womenv North Queensland Cowboys Women",
-      "datum": "Sa., 04. Juli",
-      "uhrzeit": "10:15",
-      "iso": "2026-07-04T08:15:00.000Z",
-      "ts": 1783152900
-    },
     {
       "sport": "rugby",
       "liga": "Rugby League",
@@ -453,6 +398,39 @@
       "uhrzeit": "22:00",
       "iso": "2026-07-09T20:00:00.000Z",
       "ts": 1783627200
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Wests Tigers v  New Zealand Warriors NRL",
+      "location": "Wests Tigersv New Zealand Warriors",
+      "datum": "Fr., 10. Juli",
+      "uhrzeit": "13:00",
+      "iso": "2026-07-10T11:00:00.000Z",
+      "ts": 1783681200
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Huddersfield Giants v  Bradford Bulls Super League",
+      "location": "Huddersfield Giantsv Bradford Bulls",
+      "datum": "Fr., 10. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-10T20:00:00.000Z",
+      "ts": 1783713600
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Wigan Warriors v  Warrington Wolves Super League",
+      "location": "Wigan Warriorsv Warrington Wolves",
+      "datum": "Fr., 10. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-10T20:00:00.000Z",
+      "ts": 1783713600
     }
   ]
 }
