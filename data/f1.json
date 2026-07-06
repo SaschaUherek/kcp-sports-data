@@ -1,20 +1,8 @@
 {
-  "updated": "2026-07-05T08:41:20.608Z",
+  "updated": "2026-07-06T09:57:29.835Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 14,
+  "count": 13,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "British Grand Prix · Rennen",
-      "location": "Silverstone Circuit, Silverstone, UK",
-      "datum": "So., 05. Juli",
-      "uhrzeit": "16:00",
-      "iso": "2026-07-05T14:00:00.000Z",
-      "ts": 1783260000,
-      "round": "9"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",

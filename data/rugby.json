@@ -1,52 +1,8 @@
 {
-  "updated": "2026-07-05T08:41:21.667Z",
+  "updated": "2026-07-06T09:57:31.079Z",
   "source": "wheresthematch.com",
-  "count": 37,
+  "count": 43,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Wakefield Trinity v  Castleford Tigers Super League Magic Weekend",
-      "location": "Wakefield Trinityv Castleford Tigers",
-      "datum": "So., 05. Juli",
-      "uhrzeit": "14:30",
-      "iso": "2026-07-05T12:30:00.000Z",
-      "ts": 1783254600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Leeds Rhinos v  Bradford Bulls Super League Magic Weekend",
-      "location": "Leeds Rhinosv Bradford Bulls",
-      "datum": "So., 05. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-05T15:00:00.000Z",
-      "ts": 1783263600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Scotland v  Canada  Rugby League International Hide non-televised fixtures",
-      "location": "Scotlandv Canada",
-      "datum": "So., 05. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-05T15:00:00.000Z",
-      "ts": 1783263600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Wigan Warriors v  St Helens Super League Magic Weekend",
-      "location": "Wigan Warriorsv St Helens",
-      "datum": "So., 05. Juli",
-      "uhrzeit": "19:30",
-      "iso": "2026-07-05T17:30:00.000Z",
-      "ts": 1783272600
-    },
     {
       "sport": "rugby",
       "liga": "Rugby Union",
@@ -409,6 +365,116 @@
       "uhrzeit": "01:00",
       "iso": "2026-07-11T23:00:00.000Z",
       "ts": 1783810800
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "USA v  Zimbabwe  World Rugby Nations Cup 2026",
+      "location": "USAv Zimbabwe",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "02:30",
+      "iso": "2026-07-12T00:30:00.000Z",
+      "ts": 1783816200
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "Canada v  Portugal  World Rugby Nations Cup 2026",
+      "location": "Canadav Portugal",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "04:00",
+      "iso": "2026-07-12T02:00:00.000Z",
+      "ts": 1783821600
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Canberra Raiders Women v  New Zealand Warriors Women  Women's NRL",
+      "location": "Canberra Raiders Womenv New Zealand Warriors Women",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "05:00",
+      "iso": "2026-07-12T03:00:00.000Z",
+      "ts": 1783825200
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "St George Illawarra Dragons Women v  Parramatta Eels Women  Women's NRL",
+      "location": "St George Illawarra Dragons Womenv Parramatta Eels Women",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "06:45",
+      "iso": "2026-07-12T04:45:00.000Z",
+      "ts": 1783831500
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "South Sydney Rabbitohs v  Newcastle Knights NRL",
+      "location": "South Sydney Rabbitohsv Newcastle Knights",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "07:00",
+      "iso": "2026-07-12T05:00:00.000Z",
+      "ts": 1783832400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Manly Warrinagh Sea Eagles v  North Queensland Cowboys NRL",
+      "location": "Manly Warrinagh Sea Eaglesv North Queensland Cowboys",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "09:05",
+      "iso": "2026-07-12T07:05:00.000Z",
+      "ts": 1783839900
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Melbourne Storm v  Gold Coast Titans NRL",
+      "location": "Melbourne Stormv Gold Coast Titans",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "11:15",
+      "iso": "2026-07-12T09:15:00.000Z",
+      "ts": 1783847700
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "TBC v  TBC  World Rugby U20 Championship Placement Game",
+      "location": "TBCv TBC",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-12T15:00:00.000Z",
+      "ts": 1783868400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "St Helens v  Toulouse Olympique Super League",
+      "location": "St Helensv Toulouse Olympique",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-12T15:00:00.000Z",
+      "ts": 1783868400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "TBC v  TBC  World Rugby U20 Championship Placement Game",
+      "location": "TBCv TBC",
+      "datum": "So., 12. Juli",
+      "uhrzeit": "19:30",
+      "iso": "2026-07-12T17:30:00.000Z",
+      "ts": 1783877400
     }
   ]
 }
