@@ -1,19 +1,8 @@
 {
-  "updated": "2026-07-06T09:57:29.413Z",
+  "updated": "2026-07-07T09:25:03.265Z",
   "source": "wheresthematch.com",
-  "count": 29,
+  "count": 30,
   "events": [
-    {
-      "sport": "dart",
-      "liga": "PDC Darts",
-      "liga_kz": "dart",
-      "event": "Players Championship     Players Championships 23-24 - Mattioli Arena, Leicester",
-      "location": "Mattioli Arena, Leicester",
-      "datum": "Mo., 06. Juli",
-      "uhrzeit": "15:00",
-      "iso": "2026-07-06T13:00:00.000Z",
-      "ts": 1783342800
-    },
     {
       "sport": "dart",
       "liga": "PDC Darts",
@@ -321,6 +310,28 @@
       "uhrzeit": "20:00",
       "iso": "2026-08-30T18:00:00.000Z",
       "ts": 1788112800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Czech Darts Open     CEZ Czech Darts Open - PVA EXPO Prag",
+      "location": "PVA EXPO Prag",
+      "datum": "Fr., 04. Sept.",
+      "uhrzeit": "14:00",
+      "iso": "2026-09-04T12:00:00.000Z",
+      "ts": 1788523200
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Czech Darts Open     CEZ Czech Darts Open - PVA EXPO Prag",
+      "location": "PVA EXPO Prag",
+      "datum": "Fr., 04. Sept.",
+      "uhrzeit": "20:00",
+      "iso": "2026-09-04T18:00:00.000Z",
+      "ts": 1788544800
     }
   ]
 }

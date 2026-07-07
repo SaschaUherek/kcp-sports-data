@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-06T09:57:31.079Z",
+  "updated": "2026-07-07T09:25:04.803Z",
   "source": "wheresthematch.com",
-  "count": 43,
+  "count": 47,
   "events": [
     {
       "sport": "rugby",
@@ -475,6 +475,50 @@
       "uhrzeit": "19:30",
       "iso": "2026-07-12T17:30:00.000Z",
       "ts": 1783877400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "TBC v  TBC  World Rugby U20 Championship Placement Game",
+      "location": "TBCv TBC",
+      "datum": "Mo., 13. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-13T15:00:00.000Z",
+      "ts": 1783954800
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "TBC v  TBC  World Rugby U20 Championship Semi Final",
+      "location": "TBCv TBC",
+      "datum": "Mo., 13. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-13T15:00:00.000Z",
+      "ts": 1783954800
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "TBC v  TBC  World Rugby U20 Championship Placement Game",
+      "location": "TBCv TBC",
+      "datum": "Mo., 13. Juli",
+      "uhrzeit": "19:30",
+      "iso": "2026-07-13T17:30:00.000Z",
+      "ts": 1783963800
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "TBC v  TBC  World Rugby U20 Championship Semi Final",
+      "location": "TBCv TBC",
+      "datum": "Mo., 13. Juli",
+      "uhrzeit": "19:30",
+      "iso": "2026-07-13T17:30:00.000Z",
+      "ts": 1783963800
     }
   ]
 }
