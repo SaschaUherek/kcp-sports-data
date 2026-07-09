@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-08T08:09:06.778Z",
+  "updated": "2026-07-09T09:22:19.805Z",
   "source": "wheresthematch.com",
-  "count": 31,
+  "count": 33,
   "events": [
     {
       "sport": "dart",
@@ -343,6 +343,28 @@
       "uhrzeit": "20:00",
       "iso": "2026-09-05T18:00:00.000Z",
       "ts": 1788631200
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Czech Darts Open     CEZ Czech Darts Open - PVA EXPO Prag",
+      "location": "PVA EXPO Prag",
+      "datum": "So., 06. Sept.",
+      "uhrzeit": "14:00",
+      "iso": "2026-09-06T12:00:00.000Z",
+      "ts": 1788696000
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Czech Darts Open     CEZ Czech Darts Open - PVA EXPO Prag",
+      "location": "PVA EXPO Prag",
+      "datum": "So., 06. Sept.",
+      "uhrzeit": "20:00",
+      "iso": "2026-09-06T18:00:00.000Z",
+      "ts": 1788717600
     }
   ]
 }
