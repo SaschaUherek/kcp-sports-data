@@ -1,30 +1,8 @@
 {
-  "updated": "2026-07-09T09:22:21.773Z",
+  "updated": "2026-07-10T09:19:45.770Z",
   "source": "wheresthematch.com",
   "count": 40,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Cronulla Sutherland Sharks Women v  Brisbane Broncos Women  Women's NRL",
-      "location": "Cronulla Sutherland Sharks Womenv Brisbane Broncos Women",
-      "datum": "Do., 09. Juli",
-      "uhrzeit": "12:45",
-      "iso": "2026-07-09T10:45:00.000Z",
-      "ts": 1783593900
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "York Knights v  Hull FC Super League",
-      "location": "York Knightsv Hull FC",
-      "datum": "Do., 09. Juli",
-      "uhrzeit": "22:00",
-      "iso": "2026-07-09T20:00:00.000Z",
-      "ts": 1783627200
-    },
     {
       "sport": "rugby",
       "liga": "Rugby League",
@@ -442,6 +420,28 @@
       "uhrzeit": "19:30",
       "iso": "2026-07-13T17:30:00.000Z",
       "ts": 1783963800
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Penrith Panthers v  Brisbane Broncos NRL",
+      "location": "Penrith Panthersv Brisbane Broncos",
+      "datum": "Do., 16. Juli",
+      "uhrzeit": "12:50",
+      "iso": "2026-07-16T10:50:00.000Z",
+      "ts": 1784199000
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Bradford Bulls v  Wakefield Trinity Super League",
+      "location": "Bradford Bullsv Wakefield Trinity",
+      "datum": "Do., 16. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-16T20:00:00.000Z",
+      "ts": 1784232000
     }
   ]
 }
