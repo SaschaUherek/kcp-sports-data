@@ -1,85 +1,8 @@
 {
-  "updated": "2026-07-10T09:19:45.770Z",
+  "updated": "2026-07-11T07:40:56.695Z",
   "source": "wheresthematch.com",
-  "count": 40,
+  "count": 39,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Wests Tigers v  New Zealand Warriors NRL",
-      "location": "Wests Tigersv New Zealand Warriors",
-      "datum": "Fr., 10. Juli",
-      "uhrzeit": "13:00",
-      "iso": "2026-07-10T11:00:00.000Z",
-      "ts": 1783681200
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Huddersfield Giants v  Bradford Bulls Super League",
-      "location": "Huddersfield Giantsv Bradford Bulls",
-      "datum": "Fr., 10. Juli",
-      "uhrzeit": "22:00",
-      "iso": "2026-07-10T20:00:00.000Z",
-      "ts": 1783713600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Wigan Warriors v  Warrington Wolves Super League",
-      "location": "Wigan Warriorsv Warrington Wolves",
-      "datum": "Fr., 10. Juli",
-      "uhrzeit": "22:00",
-      "iso": "2026-07-10T20:00:00.000Z",
-      "ts": 1783713600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "North Queensland Cowboys Women v  Wests Tigers Women  Women's NRL",
-      "location": "North Queensland Cowboys Womenv Wests Tigers Women",
-      "datum": "Sa., 11. Juli",
-      "uhrzeit": "05:45",
-      "iso": "2026-07-11T03:45:00.000Z",
-      "ts": 1783741500
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Dolphins v  Cronulla Sharks NRL",
-      "location": "Dolphinsv Cronulla Sharks",
-      "datum": "Sa., 11. Juli",
-      "uhrzeit": "08:00",
-      "iso": "2026-07-11T06:00:00.000Z",
-      "ts": 1783749600
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "New Zealand v  Italy Nations Championship 2026",
-      "location": "New Zealandv Italy",
-      "datum": "Sa., 11. Juli",
-      "uhrzeit": "08:10",
-      "iso": "2026-07-11T06:10:00.000Z",
-      "ts": 1783750200
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Canterbury Bankstown Bulldogs Women v  Gold Coast Titans Women  Women's NRL",
-      "location": "Canterbury Bankstown Bulldogs Womenv Gold Coast Titans Women",
-      "datum": "Sa., 11. Juli",
-      "uhrzeit": "08:15",
-      "iso": "2026-07-11T06:15:00.000Z",
-      "ts": 1783750500
-    },
     {
       "sport": "rugby",
       "liga": "Rugby League",
@@ -442,6 +365,72 @@
       "uhrzeit": "22:00",
       "iso": "2026-07-16T20:00:00.000Z",
       "ts": 1784232000
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Cronulla Sharks v  Newcastle Knights NRL",
+      "location": "Cronulla Sharksv Newcastle Knights",
+      "datum": "Fr., 17. Juli",
+      "uhrzeit": "11:00",
+      "iso": "2026-07-17T09:00:00.000Z",
+      "ts": 1784278800
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Sydney Roosters v  Melbourne Storm NRL",
+      "location": "Sydney Roostersv Melbourne Storm",
+      "datum": "Fr., 17. Juli",
+      "uhrzeit": "13:00",
+      "iso": "2026-07-17T11:00:00.000Z",
+      "ts": 1784286000
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "TBC v  TBC  World Rugby U20 Championship Placement Game",
+      "location": "TBCv TBC",
+      "datum": "Fr., 17. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-17T15:00:00.000Z",
+      "ts": 1784300400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "TBC v  TBC  World Rugby U20 Championship Placement Game",
+      "location": "TBCv TBC",
+      "datum": "Fr., 17. Juli",
+      "uhrzeit": "19:30",
+      "iso": "2026-07-17T17:30:00.000Z",
+      "ts": 1784309400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Huddersfield Giants v  Wigan Warriors Super League",
+      "location": "Huddersfield Giantsv Wigan Warriors",
+      "datum": "Fr., 17. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-17T20:00:00.000Z",
+      "ts": 1784318400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "St Helens v  Catalans Dragons Super League",
+      "location": "St Helensv Catalans Dragons",
+      "datum": "Fr., 17. Juli",
+      "uhrzeit": "22:00",
+      "iso": "2026-07-17T20:00:00.000Z",
+      "ts": 1784318400
     }
   ]
 }
