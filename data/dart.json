@@ -1,30 +1,8 @@
 {
-  "updated": "2026-07-12T08:02:03.371Z",
+  "updated": "2026-07-13T08:51:04.257Z",
   "source": "wheresthematch.com",
-  "count": 29,
+  "count": 27,
   "events": [
-    {
-      "sport": "dart",
-      "liga": "PDC Darts",
-      "liga_kz": "dart",
-      "event": "European Darts Open     Elten Safety Shoes European Darts Open - Ostermann-Arena Leverkusen",
-      "location": "Ostermann-Arena Leverkusen",
-      "datum": "So., 12. Juli",
-      "uhrzeit": "14:00",
-      "iso": "2026-07-12T12:00:00.000Z",
-      "ts": 1783857600
-    },
-    {
-      "sport": "dart",
-      "liga": "PDC Darts",
-      "liga_kz": "dart",
-      "event": "European Darts Open     Elten Safety Shoes European Darts Open - Ostermann-Arena Leverkusen",
-      "location": "Ostermann-Arena Leverkusen",
-      "datum": "So., 12. Juli",
-      "uhrzeit": "20:00",
-      "iso": "2026-07-12T18:00:00.000Z",
-      "ts": 1783879200
-    },
     {
       "sport": "dart",
       "liga": "PDC Darts",

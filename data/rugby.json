@@ -1,74 +1,8 @@
 {
-  "updated": "2026-07-12T08:02:04.908Z",
+  "updated": "2026-07-13T08:51:06.337Z",
   "source": "wheresthematch.com",
-  "count": 41,
+  "count": 44,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "Melbourne Storm v  Gold Coast Titans NRL",
-      "location": "Melbourne Stormv Gold Coast Titans",
-      "datum": "So., 12. Juli",
-      "uhrzeit": "11:15",
-      "iso": "2026-07-12T09:15:00.000Z",
-      "ts": 1783847700
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Japan U20 v  USA U20  World Rugby U20 Championship Placement Game",
-      "location": "Japan U20v USA U20",
-      "datum": "So., 12. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-12T15:00:00.000Z",
-      "ts": 1783868400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Argentina U20 v  Scotland U20  World Rugby U20 Championship Placement Game",
-      "location": "Argentina U20v Scotland U20",
-      "datum": "So., 12. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-12T15:00:00.000Z",
-      "ts": 1783868400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby League",
-      "liga_kz": "rugby",
-      "event": "St Helens v  Toulouse Olympique Super League",
-      "location": "St Helensv Toulouse Olympique",
-      "datum": "So., 12. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-12T15:00:00.000Z",
-      "ts": 1783868400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Spain U20 v  Uruguay U20  World Rugby U20 Championship Placement Game",
-      "location": "Spain U20v Uruguay U20",
-      "datum": "So., 12. Juli",
-      "uhrzeit": "19:30",
-      "iso": "2026-07-12T17:30:00.000Z",
-      "ts": 1783877400
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Australia U20 v  Wales U20  World Rugby U20 Championship Placement Game",
-      "location": "Australia U20v Wales U20",
-      "datum": "So., 12. Juli",
-      "uhrzeit": "19:30",
-      "iso": "2026-07-12T17:30:00.000Z",
-      "ts": 1783877400
-    },
     {
       "sport": "rugby",
       "liga": "Rugby Union",
@@ -453,6 +387,105 @@
       "uhrzeit": "23:45",
       "iso": "2026-07-18T21:45:00.000Z",
       "ts": 1784411100
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "USA v  Spain  World Rugby Nations Cup 2026",
+      "location": "USAv Spain",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "02:30",
+      "iso": "2026-07-19T00:30:00.000Z",
+      "ts": 1784421000
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby Union",
+      "liga_kz": "rugby",
+      "event": "Canada v  Zimbabwe  World Rugby Nations Cup 2026",
+      "location": "Canadav Zimbabwe",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "03:00",
+      "iso": "2026-07-19T01:00:00.000Z",
+      "ts": 1784422800
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Gold Coast Titans Women v  Parramatta Eels Women  Women's NRL",
+      "location": "Gold Coast Titans Womenv Parramatta Eels Women",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "04:50",
+      "iso": "2026-07-19T02:50:00.000Z",
+      "ts": 1784429400
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Brisbane Broncos Women v  Wests Tigers Women  Women's NRL",
+      "location": "Brisbane Broncos Womenv Wests Tigers Women",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "06:45",
+      "iso": "2026-07-19T04:45:00.000Z",
+      "ts": 1784436300
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Gold Coast Titans v  Manly Warrinagh Sea Eagles NRL",
+      "location": "Gold Coast Titansv Manly Warrinagh Sea Eagles",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "07:00",
+      "iso": "2026-07-19T05:00:00.000Z",
+      "ts": 1784437200
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Dolphins v  North Queensland Cowboys NRL",
+      "location": "Dolphinsv North Queensland Cowboys",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "09:05",
+      "iso": "2026-07-19T07:05:00.000Z",
+      "ts": 1784444700
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Newcastle Knights Women v  St George Illawarra Dragons Women  Women's NRL",
+      "location": "Newcastle Knights Womenv St George Illawarra Dragons Women",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "11:15",
+      "iso": "2026-07-19T09:15:00.000Z",
+      "ts": 1784452500
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Wales Women v  Canada Women  Rugby League International Hide non-televised fixtures",
+      "location": "Wales Womenv Canada Women",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-19T15:00:00.000Z",
+      "ts": 1784473200
+    },
+    {
+      "sport": "rugby",
+      "liga": "Rugby League",
+      "liga_kz": "rugby",
+      "event": "Castleford Tigers v  Leeds Rhinos Super League",
+      "location": "Castleford Tigersv Leeds Rhinos",
+      "datum": "So., 19. Juli",
+      "uhrzeit": "17:00",
+      "iso": "2026-07-19T15:00:00.000Z",
+      "ts": 1784473200
     }
   ]
 }
