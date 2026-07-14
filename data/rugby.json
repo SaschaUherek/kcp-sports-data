@@ -1,52 +1,8 @@
 {
-  "updated": "2026-07-13T08:51:06.337Z",
+  "updated": "2026-07-14T07:48:03.355Z",
   "source": "wheresthematch.com",
-  "count": 44,
+  "count": 40,
   "events": [
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Georgia U20 v  Italy U20  World Rugby U20 Championship Placement Game",
-      "location": "Georgia U20v Italy U20",
-      "datum": "Mo., 13. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-13T15:00:00.000Z",
-      "ts": 1783954800
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "France U20 v  New Zealand U20  World Rugby U20 Championship Semi Final",
-      "location": "France U20v New Zealand U20",
-      "datum": "Mo., 13. Juli",
-      "uhrzeit": "17:00",
-      "iso": "2026-07-13T15:00:00.000Z",
-      "ts": 1783954800
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "Ireland U20 v  Fiji U20  World Rugby U20 Championship Placement Game",
-      "location": "Ireland U20v Fiji U20",
-      "datum": "Mo., 13. Juli",
-      "uhrzeit": "19:30",
-      "iso": "2026-07-13T17:30:00.000Z",
-      "ts": 1783963800
-    },
-    {
-      "sport": "rugby",
-      "liga": "Rugby Union",
-      "liga_kz": "rugby",
-      "event": "South Africa U20 v  England U20  World Rugby U20 Championship Semi Final",
-      "location": "South Africa U20v England U20",
-      "datum": "Mo., 13. Juli",
-      "uhrzeit": "19:30",
-      "iso": "2026-07-13T17:30:00.000Z",
-      "ts": 1783963800
-    },
     {
       "sport": "rugby",
       "liga": "Rugby League",

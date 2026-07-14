@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-13T08:51:04.257Z",
+  "updated": "2026-07-14T07:48:01.599Z",
   "source": "wheresthematch.com",
-  "count": 27,
+  "count": 29,
   "events": [
     {
       "sport": "dart",
@@ -299,6 +299,28 @@
       "uhrzeit": "20:00",
       "iso": "2026-09-06T18:00:00.000Z",
       "ts": 1788717600
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Flanders Darts Trophy     Flanders Darts Trophy - Antwerp Expo Antwerp",
+      "location": "Antwerp Expo Antwerp",
+      "datum": "Fr., 11. Sept.",
+      "uhrzeit": "14:00",
+      "iso": "2026-09-11T12:00:00.000Z",
+      "ts": 1789128000
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Flanders Darts Trophy     Flanders Darts Trophy - Antwerp Expo Antwerp",
+      "location": "Antwerp Expo Antwerp",
+      "datum": "Fr., 11. Sept.",
+      "uhrzeit": "20:00",
+      "iso": "2026-09-11T18:00:00.000Z",
+      "ts": 1789149600
     }
   ]
 }
