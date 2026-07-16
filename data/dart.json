@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-14T07:48:01.599Z",
+  "updated": "2026-07-16T07:56:55.203Z",
   "source": "wheresthematch.com",
-  "count": 29,
+  "count": 33,
   "events": [
     {
       "sport": "dart",
@@ -321,6 +321,50 @@
       "uhrzeit": "20:00",
       "iso": "2026-09-11T18:00:00.000Z",
       "ts": 1789149600
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Flanders Darts Trophy     Flanders Darts Trophy - Antwerp Expo Antwerp",
+      "location": "Antwerp Expo Antwerp",
+      "datum": "Sa., 12. Sept.",
+      "uhrzeit": "14:00",
+      "iso": "2026-09-12T12:00:00.000Z",
+      "ts": 1789214400
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Flanders Darts Trophy     Flanders Darts Trophy - Antwerp Expo Antwerp",
+      "location": "Antwerp Expo Antwerp",
+      "datum": "Sa., 12. Sept.",
+      "uhrzeit": "20:00",
+      "iso": "2026-09-12T18:00:00.000Z",
+      "ts": 1789236000
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Flanders Darts Trophy     Flanders Darts Trophy - Antwerp Expo Antwerp",
+      "location": "Antwerp Expo Antwerp",
+      "datum": "So., 13. Sept.",
+      "uhrzeit": "14:00",
+      "iso": "2026-09-13T12:00:00.000Z",
+      "ts": 1789300800
+    },
+    {
+      "sport": "dart",
+      "liga": "PDC Darts",
+      "liga_kz": "dart",
+      "event": "Flanders Darts Trophy     Flanders Darts Trophy - Antwerp Expo Antwerp",
+      "location": "Antwerp Expo Antwerp",
+      "datum": "So., 13. Sept.",
+      "uhrzeit": "20:00",
+      "iso": "2026-09-13T18:00:00.000Z",
+      "ts": 1789322400
     }
   ]
 }
