@@ -1,20 +1,8 @@
 {
-  "updated": "2026-07-19T08:01:52.497Z",
+  "updated": "2026-07-20T08:42:02.229Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 13,
+  "count": 12,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Belgian Grand Prix · Rennen",
-      "location": "Circuit de Spa-Francorchamps, Spa, Belgium",
-      "datum": "So., 19. Juli",
-      "uhrzeit": "15:00",
-      "iso": "2026-07-19T13:00:00.000Z",
-      "ts": 1784466000,
-      "round": "10"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
