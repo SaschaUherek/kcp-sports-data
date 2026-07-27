@@ -1,20 +1,8 @@
 {
-  "updated": "2026-07-26T08:09:21.121Z",
+  "updated": "2026-07-27T09:33:00.736Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 12,
+  "count": 11,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Hungarian Grand Prix · Rennen",
-      "location": "Hungaroring, Budapest, Hungary",
-      "datum": "So., 26. Juli",
-      "uhrzeit": "15:00",
-      "iso": "2026-07-26T13:00:00.000Z",
-      "ts": 1785070800,
-      "round": "11"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
