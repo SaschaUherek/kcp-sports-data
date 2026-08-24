@@ -1,20 +1,8 @@
 {
-  "updated": "2026-08-23T06:24:37.588Z",
+  "updated": "2026-08-24T06:37:47.087Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 12,
+  "count": 11,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Dutch Grand Prix · Rennen",
-      "location": "Circuit Park Zandvoort, Zandvoort, Netherlands",
-      "datum": "So., 23. Aug.",
-      "uhrzeit": "15:00",
-      "iso": "2026-08-23T13:00:00.000Z",
-      "ts": 1787490000,
-      "round": "12"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
