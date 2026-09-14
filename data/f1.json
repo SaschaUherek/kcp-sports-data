@@ -1,20 +1,8 @@
 {
-  "updated": "2026-09-13T10:49:05.454Z",
+  "updated": "2026-09-14T11:16:48.076Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 10,
+  "count": 9,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Spanish Grand Prix · Rennen",
-      "location": "Madring, Madrid, Spain",
-      "datum": "So., 13. Sept.",
-      "uhrzeit": "15:00",
-      "iso": "2026-09-13T13:00:00.000Z",
-      "ts": 1789304400,
-      "round": "14"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
