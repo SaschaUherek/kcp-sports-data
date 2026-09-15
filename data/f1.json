@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T11:16:48.076Z",
+  "updated": "2026-09-15T10:42:31.994Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
   "count": 9,
   "events": [
@@ -92,7 +92,7 @@
       "liga": "Formel 1",
       "liga_kz": "f1",
       "event": "Qatar Grand Prix · Rennen",
-      "location": "Losail International Circuit, Lusail, Qatar",
+      "location": "Lusail International Circuit, Lusail, Qatar",
       "datum": "So., 29. Nov.",
       "uhrzeit": "17:00",
       "iso": "2026-11-29T16:00:00.000Z",
