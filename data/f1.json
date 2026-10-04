@@ -1,20 +1,8 @@
 {
-  "updated": "2026-10-03T10:49:43.021Z",
+  "updated": "2026-10-04T11:32:05.394Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 8,
+  "count": 7,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Bahrain Grand Prix in Malaysia · Rennen",
-      "location": "Sepang International Circuit, Kuala Lumpur, Malaysia",
-      "datum": "So., 04. Okt.",
-      "uhrzeit": "09:00",
-      "iso": "2026-10-04T07:00:00.000Z",
-      "ts": 1791097200,
-      "round": "16"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
