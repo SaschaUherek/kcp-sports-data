@@ -1,20 +1,8 @@
 {
-  "updated": "2026-10-11T11:49:54.329Z",
+  "updated": "2026-10-12T13:55:43.816Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 7,
+  "count": 6,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Singapore Grand Prix · Rennen",
-      "location": "Marina Bay Street Circuit, Marina Bay, Singapore",
-      "datum": "So., 11. Okt.",
-      "uhrzeit": "14:00",
-      "iso": "2026-10-11T12:00:00.000Z",
-      "ts": 1791720000,
-      "round": "17"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
