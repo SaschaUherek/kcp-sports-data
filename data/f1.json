@@ -1,20 +1,8 @@
 {
-  "updated": "2026-10-25T10:24:57.979Z",
+  "updated": "2026-10-26T11:54:14.611Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 6,
+  "count": 5,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "United States Grand Prix · Rennen",
-      "location": "Circuit of the Americas, Austin, USA",
-      "datum": "So., 25. Okt.",
-      "uhrzeit": "21:00",
-      "iso": "2026-10-25T20:00:00.000Z",
-      "ts": 1792958400,
-      "round": "18"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
