@@ -1,20 +1,8 @@
 {
-  "updated": "2026-11-01T12:20:35.064Z",
+  "updated": "2026-11-02T14:15:41.547Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 5,
+  "count": 4,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Mexico City Grand Prix · Rennen",
-      "location": "Autódromo Hermanos Rodríguez, Mexico City, Mexico",
-      "datum": "So., 01. Nov.",
-      "uhrzeit": "21:00",
-      "iso": "2026-11-01T20:00:00.000Z",
-      "ts": 1793563200,
-      "round": "19"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
