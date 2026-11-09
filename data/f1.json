@@ -1,20 +1,8 @@
 {
-  "updated": "2026-11-08T12:28:44.210Z",
+  "updated": "2026-11-09T14:43:52.844Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 4,
+  "count": 3,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Brazilian Grand Prix · Rennen",
-      "location": "Autódromo José Carlos Pace, São Paulo, Brazil",
-      "datum": "So., 08. Nov.",
-      "uhrzeit": "18:00",
-      "iso": "2026-11-08T17:00:00.000Z",
-      "ts": 1794157200,
-      "round": "20"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
