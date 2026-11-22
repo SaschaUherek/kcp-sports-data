@@ -1,20 +1,8 @@
 {
-  "updated": "2026-11-21T13:54:56.192Z",
+  "updated": "2026-11-22T13:48:12.772Z",
   "source": "api.jolpi.ca/ergast/f1/2026",
-  "count": 3,
+  "count": 2,
   "events": [
-    {
-      "sport": "f1",
-      "liga": "Formel 1",
-      "liga_kz": "f1",
-      "event": "Las Vegas Grand Prix · Rennen",
-      "location": "Las Vegas Strip Street Circuit, Las Vegas, USA",
-      "datum": "So., 22. Nov.",
-      "uhrzeit": "05:00",
-      "iso": "2026-11-22T04:00:00.000Z",
-      "ts": 1795320000,
-      "round": "21"
-    },
     {
       "sport": "f1",
       "liga": "Formel 1",
